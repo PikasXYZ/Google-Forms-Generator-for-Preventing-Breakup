@@ -1,15 +1,66 @@
 # Google-Forms-Generator-for-Preventing-Breakup
-This Google Form Generator is designed to facilitate the rapid creation of Google Forms, which can save your friendship before traveling by allowing you to swiftly convert some fantastic questions in [this Google Sheets](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing) into a structured Google Form.
+This Google Form Generator is designed to facilitate the rapid creation of Google Forms, which can save your friendship before traveling by allowing you to swiftly convert some fantastic questions in [this Google Sheet](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing) into a structured Google Form.
 
-## How to Use
+## Preparison
+By clicking "File">>"Make a copy" in [this Google Sheet](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing), a  new one will be duplicated to your Google Drive, which means you have the permission to edit it.
 
-### Step 1: Prepare Your Google Sheet
+ ㅤ
+<p align="center">
+  <img src="pic/copy.jpg" width=500>
+  <img src="pic/copy2.jpg" width=500>
+  <br>
+  <em>▲ How to make a copy ▲</em>
+  <br>
+</p>
 
-Ensure your Google Sheet is structured similar to the attached file. This would be the basis for the form questions and options that the script will generate.
+ ㅤ
+Then you have to give me permission to run the main program by clicking the  `Generation Button` on the left bottom.
 
-### Step 2: Script Details
+ ㅤ
+<p align="center">
+  <img src="pic/button.png" width=500>
+  <br>
+  <em>▲ Generation Button ▲</em>
+  <br>
+</p>
 
-The Following are the codes of Apps Script that performs the conversion:
+ ㅤ
+
+
+ ㅤ
+<p align="center">
+  <img src="pic/button.png" width=500>
+  <br>
+  <em>▲ Click "Continue" to give permission ▲</em>
+  <br>
+</p>
+
+ ㅤ
+
+
+
+ ㅤ
+<p align="center">
+  <img src="pic/click_advance.jpg" width=500>
+  <img src="pic/go_to.jpg" width=500>
+  <br>
+  <em>▲ After choosing your account, click "Advance" and "Go to Pikas Saves Ur Friendship (unsafe)"  ▲</em>
+  <br>
+</p>
+
+ ㅤ
+
+
+ ㅤ
+<p align="center">
+  <img src="pic/allow.jpg" width=500>
+  <br>
+  <em>▲ Finally, click "Allow" to finish authorization ▲</em>
+  <br>
+</p>
+
+ ㅤ
+If you're worried about the safety of my code, click "Extensions" >> "Apps Script" and you'll see the following codes of Apps Script that perform the conversion:
 
 ```javascript
   // Get the current Google Sheets file
@@ -77,7 +128,7 @@ The Following are the codes of Apps Script that performs the conversion:
 }
 ```
 
-### Step 3: Understanding the Script
+## Usage
 
 Here's a breakdown of what the script does:
 
@@ -95,6 +146,6 @@ Here's a breakdown of what the script does:
 
 4. **Form URL Display**: Once the form is created, the script displays a dialog box containing the URL of the newly created form.
 
-### Step 4: Executing the Script
+## Reference
 
 To run the script, click on the embedded picture button next to your sheet. The script will execute, and upon completion, you will see a dialog box with a link to your newly created form.
