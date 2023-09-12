@@ -1,5 +1,5 @@
 # Google-Forms-Generator-for-Preventing-Breakup
-This Google Form Generator is designed to facilitate the rapid creation of Google Forms, which can save your friendship before traveling by allowing you to swiftly convert some cool questions in [this Google Sheets](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing) into a structured Google Form. This automation  based on the data you've accumulated in your sheets.
+This Google Form Generator is designed to facilitate the rapid creation of Google Forms, which can save your friendship before traveling by allowing you to swiftly convert some fantastic questions in [this Google Sheets](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing) into a structured Google Form.
 
 ## How to Use
 
