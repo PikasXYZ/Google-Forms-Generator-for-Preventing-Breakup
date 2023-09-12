@@ -6,8 +6,8 @@ By clicking "File">>"Make a copy" in [this Google Sheet](https://docs.google.com
 
  ㅤ
 <p align="center">
-  <img src="pic/copy.jpg" width=500>
-  <img src="pic/copy2.jpg" width=500>
+  <img src="pic/copy.jpg" width=300>
+  <img src="pic/copy2.jpg" width=300>
   <br>
   <em>▲ How to make a copy ▲</em>
   <br>
@@ -18,18 +18,16 @@ Then you have to give me permission to run the main program by clicking the  `Ge
 
  ㅤ
 <p align="center">
-  <img src="pic/button.png" width=500>
+  <img src="pic/button.png" width=300>
   <br>
   <em>▲ Generation Button ▲</em>
   <br>
 </p>
 
- ㅤ
-
 
  ㅤ
 <p align="center">
-  <img src="pic/button.png" width=500>
+  <img src="pic/required.jpg" width=500>
   <br>
   <em>▲ Click "Continue" to give permission ▲</em>
   <br>
