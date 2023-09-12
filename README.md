@@ -147,7 +147,8 @@ Feel free to edit according to them :smiley:!
 :question: What if I don't want every title to be separated into different pages?
 
 :bulb: Every title will be merged as one page when the word "MERGE" is keyed into cell A1. 
- ㅤ
+ 
+  ㅤ
  
 :question: Something different from the above.
 
