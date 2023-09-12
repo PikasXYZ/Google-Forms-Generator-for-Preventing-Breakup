@@ -39,8 +39,8 @@ Then you have to give me permission to run the main program by clicking the  `Ge
 
  ㅤ
 <p align="center">
-  <img src="pic/click_advance.jpg" width=500>
-  <img src="pic/go_to.jpg" width=500>
+  <img src="pic/click_advance_.jpg" width=500>
+  <img src="pic/go_to_.jpg" width=500>
   <br>
   <em>▲ After choosing your account, click "Advance" and "Go to Pikas Saves Ur Friendship (unsafe)"  ▲</em>
   <br>
