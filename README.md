@@ -1,7 +1,13 @@
 # Google-Forms-Generator-for-Preventing-Breakup
-This Google Form Generator is designed to facilitate the rapid creation of Google Forms, which can save your friendship before traveling by allowing you to swiftly convert some fantastic questions in [this Google Sheet](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing) into a structured Google Form.
+This Google Form Generator is designed to facilitate the rapid creation of Google Forms, which can save your friendship before traveling by allowing you to swiftly convert some fantastic questions in [this Google Sheet](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing) into a structured Google Form. The following are three fantastic questions in it:
 
-## Preparison
+> _Can you accept taking photos of the food before starting to eat?_
+>
+> _Does it need to be completely dark when sleeping?_
+> 
+> _Are you willing to take a taxi if the distance to the destination exceeds one kilometer?_
+
+## Preparation
 By clicking "File">>"Make a copy" in [this Google Sheet](https://docs.google.com/spreadsheets/d/1MgWS0RFdOLshZZiJTdjAvHDp7Xj8YXzqo2zoqaXyxt4/edit?usp=sharing), a  new one will be duplicated to your Google Drive, which means you have the permission to edit it.
 
  ㅤ
@@ -127,23 +133,25 @@ If you're worried about the safety of my code, click "Extensions" >> "Apps Scrip
 ```
 
 ## Usage
+After preparation, you can try to click the `Generation Button` first to check the appearance of the default Google Form. And you'll find the rule below:
 
-Here's a breakdown of what the script does:
+- From column C and so on, values in row 2 became titles, and those below became questions.
+- Values below cell B2 (Options) became options in every multiple-choice question.
+- Every title was separated into different pages. 
+- Questions that were **bold** in the Google Sheet became required questions in the Google Form.
+- Questions that were _italic_ in the Google Sheet became required questions in the Google Form.
 
-1. **Retrieving the Sheet Details**: The script first retrieves the active Google Sheets file and extracts all necessary details, including cell values and their respective styles (like font weight and font style).
+Feel free to edit according to them :smiley:!
 
-2. **Form Creation**:
-   - The script uses the name of the current Google Sheets as the form name.
-   - It adds a text item, prompting the user to enter their name, which is a mandatory field.
+## FAQ
+:question: What if I don't want every title to be separated into different pages?
 
-3. **Question Generation**:
-   - The script reads options from column B (starting from B3) and uses them as the choices for multiple-choice questions.
-   - It iterates through each column from C onwards, setting the column title as the page or section title and adding respective questions from each cell in the column.
-   - If a question is in bold, it's marked as a required question.
-   - If a question is in italics, it's created as a text item instead of a multiple-choice question.
+:bulb: Every title will be merged as one page when the word "MERGE" is keyed into cell A1. 
+ ㅤ
+ 
+:question: Something different from the above.
 
-4. **Form URL Display**: Once the form is created, the script displays a dialog box containing the URL of the newly created form.
+:bulb: Send mail to pikasxyz@gmail.com and explain in detail.
 
 ## Reference
-
-To run the script, click on the embedded picture button next to your sheet. The script will execute, and upon completion, you will see a dialog box with a link to your newly created form.
+[にかいどう ゆき's Facebook post](https://www.facebook.com/lakuyuki/posts/pfbid0ikdESEiz3Gs8i1giEmfSjzrF9e9ZZS4UooSqtKBd2e27u1KRYTq5VTm4Gb8DbMGcl)
